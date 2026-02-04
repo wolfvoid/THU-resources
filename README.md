@@ -1,7 +1,7 @@
 # THU-resources
 
 Hello, there.
-This repository contains my course trajectory for degree courses at Tsinghua University (THU). It includes resources, notes, and materials related to the courses I've taken. I wish this could provide some help to fellow students and enthusiasts.
+This repository contains my course trajectory for degree courses at Tsinghua University (THU). It includes resources, notes, and materials related to the courses I've taken. I wish this could provide some help to fellow students and enthusiasts. Any contributions or suggestions are welcome!
 
 ## Course List
 
