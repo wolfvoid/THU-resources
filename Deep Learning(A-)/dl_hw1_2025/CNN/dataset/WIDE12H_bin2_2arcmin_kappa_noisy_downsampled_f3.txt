@@ -1,0 +1,1 @@
+WIDE12H_bin2_2arcmin_kappa_noisy_downsampled_f3.npy here

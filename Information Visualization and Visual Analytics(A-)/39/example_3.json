@@ -1,0 +1,201 @@
+{
+  "data": {
+    "data": [
+      {
+        "Technology Component": "Li-ion Battery",
+        "Average Cost Index": 145,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "Li-ion Battery",
+        "Average Cost Index": 98,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "Solar PV Module",
+        "Average Cost Index": 85,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "Solar PV Module",
+        "Average Cost Index": 42,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "SSD Storage",
+        "Average Cost Index": 120,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "SSD Storage",
+        "Average Cost Index": 75,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "OLED Panel",
+        "Average Cost Index": 160,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "OLED Panel",
+        "Average Cost Index": 110,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "Wind Turbine",
+        "Average Cost Index": 95,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "Wind Turbine",
+        "Average Cost Index": 82,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "LED Chip",
+        "Average Cost Index": 60,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "LED Chip",
+        "Average Cost Index": 35,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "Carbon Fiber",
+        "Average Cost Index": 180,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "Carbon Fiber",
+        "Average Cost Index": 135,
+        "Year": "2025"
+      },
+      {
+        "Technology Component": "DRAM Memory",
+        "Average Cost Index": 110,
+        "Year": "2020"
+      },
+      {
+        "Technology Component": "DRAM Memory",
+        "Average Cost Index": 88,
+        "Year": "2025"
+      }
+    ],
+    "columns": [
+      {
+        "name": "Technology Component",
+        "importance": "primary",
+        "description": "Type of technology hardware",
+        "unit": "none",
+        "data_type": "categorical",
+        "role": "x"
+      },
+      {
+        "name": "Average Cost Index",
+        "importance": "primary",
+        "description": "Normalized cost index per unit",
+        "unit": "Index",
+        "data_type": "numerical",
+        "role": "y"
+      },
+      {
+        "name": "Year",
+        "data_type": "categorical",
+        "role": "category",
+        "description": "Comparison year"
+      }
+    ],
+    "type_combination": "categorical + numerical + categorical"
+  },
+  "chart_type": "Pictorial Unit Chart",
+  "data_format": {
+    "x": "Technology Component",
+    "y": "Average Cost Index"
+  },
+  "metadata": {
+    "title": "",
+    "description": "",
+    "main_insight": "",
+    "titles": {},
+    "data_facts": []
+  },
+  "secondary_data": [],
+  "variables": {
+    "width": 800,
+    "height": 600,
+    "has_rounded_corners": false,
+    "has_shadow": false,
+    "has_spacing": false,
+    "has_gradient": false,
+    "has_stroke": false
+  },
+  "typography": {
+    "title": {
+      "font_family": "Arial",
+      "font_size": "28px",
+      "font_weight": 700
+    },
+    "description": {
+      "font_family": "Arial",
+      "font_size": "16px",
+      "font_weight": 500
+    },
+    "label": {
+      "font_family": "Arial",
+      "font_size": "14px",
+      "font_weight": 500
+    },
+    "annotation": {
+      "font_family": "Arial",
+      "font_size": "12px",
+      "font_weight": 400
+    }
+  },
+  "datafacts": [],
+  "titles": {
+    "main_title": "Tech Component Cost Reduction",
+    "sub_title": "MANUFACTURING COST INDEX 2020 VS 2025",
+    "main_insights": "Economies of scale and manufacturing breakthroughs have consistently driven down unit costs across all major hardware sectors."
+  },
+  "colors": {
+    "field": {},
+    "other": {
+      "primary": "#d27c89",
+      "secondary": "#e5c767"
+    },
+    "available_colors": [
+      "#3e4443",
+      "#245b36",
+      "#727272",
+      "#335273"
+    ],
+    "background_color": "#E2F1F6",
+    "text_color": "#414141"
+  },
+  "colors_dark": {
+    "field": {},
+    "other": {
+      "primary": "#e7bcc3",
+      "secondary": "#f0d991"
+    },
+    "available_colors": [
+      "#0002f6",
+      "#170188",
+      "#09e896",
+      "#00d9fe",
+      "#ff68f4",
+      "#fde900",
+      "#fe050e",
+      "#ff7b00",
+      "#8f00ff",
+      "#aaff00"
+    ],
+    "background_color": "#020003",
+    "text_color": "#a38e8e"
+  },
+  "images": {
+    "other": {},
+    "field": {}
+  }
+}

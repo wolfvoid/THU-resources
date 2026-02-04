@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Visualization Poster</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            /* 初始背景色，稍后会被JS覆盖 */
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        #poster-container {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        /* 简单的提示框样式 */
+        .tooltip {
+            position: absolute;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 0;
+            font-size: 12px;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="poster-container"></div>
+    <script src="sample_20.js"></script>
+</body>
+</html>

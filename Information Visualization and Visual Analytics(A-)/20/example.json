@@ -1,0 +1,189 @@
+{
+  "data": {
+    "data": [
+      {
+        "name": "YASNGTZE MEMORY",
+        "money": 22.1,
+        "country": "china"
+      },
+      {
+        "name": "Environmental Services",
+        "money": 2.2,
+        "country": "china"
+      },
+      {
+        "name": "Health Tech",
+        "money": 2.8,
+        "country": "United States"
+      },
+      {
+        "name": "AI & Machine Learning",
+        "money": 2.5,
+        "country": "United States"
+      },
+      {
+        "name": "Health Tech",
+        "money": 2.5,
+        "country": "United States"
+      },
+      {
+        "name": "AI & Machine Learning",
+        "money": 2.5,
+        "country": "United States"
+      },
+      {
+        "name": "Robotics & Drones",
+        "money": 2.0,
+        "country": "United States"
+      },
+      {
+        "name": "Software as a Service",
+        "money": 2.0,
+        "country": "United States"
+      },
+      {
+        "name": "AI & Machine Learning",
+        "money": 2.0,
+        "country": "United States"
+      },
+      {
+        "name": "Beverages",
+        "money": 2.0,
+        "country": "United States"
+      },
+      {
+        "name": "Software as a Service",
+        "money": 2.5,
+        "country": "Canada"
+      },
+      {
+        "name": "AI & Machine Learning",
+        "money": 2.1,
+        "country": "UK"
+      }
+
+    ],
+    "columns": [
+      {
+        "name": "name",
+        "importance": "primary",
+        "description": "Name of U.S. City",
+        "unit": "none",
+        "data_type": "categorical",
+        "role": "x"
+      },
+      {
+        "name": "money",
+        "importance": "primary",
+        "description": "Units for the corresponding year",
+        "role": "y",
+        "data_type": "numerical"
+      },
+      {
+        "name": "country",
+        "importance": "primary",
+        "description": "The year of the data point",
+        "role": "group",
+        "data_type": "categorical"
+      }
+    ],
+    "type_combination": "categorical + numerical + categorical"
+  },
+  "chart_type": "Horizontal Grouped Bar Chart",
+  "data_format": {
+    "x": "name",
+    "y": "money",
+    "groups": [
+      "YTD 2020",
+      "YTD 2019"
+    ]
+  },
+  "metadata": {
+    "title": "",
+    "description": "",
+    "main_insight": " Unicorns are privately held venture-backed stratups valued at $1 billion or more until they go public or are acquired.",
+    "titles": {},
+    "data_facts": []
+  },
+  "secondary_data": [],
+  "variables": {
+    "width": 600,
+    "height": 600,
+    "has_rounded_corners": false,
+    "has_shadow": false,
+    "has_spacing": false,
+    "has_gradient": false,
+    "has_stroke": false
+  },
+  "typography": {
+    "title": {
+      "font_family": "Arial",
+      "font_size": "28px",
+      "font_weight": 700
+    },
+    "description": {
+      "font_family": "Arial",
+      "font_size": "16px",
+      "font_weight": 500
+    },
+    "label": {
+      "font_family": "Arial",
+      "font_size": "16px",
+      "font_weight": 500
+    },
+    "annotation": {
+      "font_family": "Arial",
+      "font_size": "12px",
+      "font_weight": 400
+    }
+  },
+  "datafacts": [],
+  "titles": {
+    "main_title": "Biggest Unicorns",
+    "sub_title": "VALUED OVER $2 BILLION DOLLARS"
+  },
+  "colors": {
+    "field": {
+      "YTD 2023": "#2c81d7",
+      "YTD 2022": "#df9e6f"
+    },
+    "other": {
+      "primary": "#2c81d7",
+      "secondary": "#62ace7"
+    },
+    "available_colors": [
+      "#6fb2e6",
+      "#666666",
+      "#3e4541",
+      "#878787",
+      "#19436c",
+      "#d3b47d"
+    ],
+    "background_color": "#E2F1F6",
+    "text_color": "#414141"
+  },
+  "colors_dark": {
+    "field": {
+      "YTD 2023": "#81b9f1",
+      "YTD 2022": "#efc5a6"
+    },
+    "other": {
+      "primary": "#81b9f1",
+      "secondary": "#a7d3f6"
+    },
+    "available_colors": [
+      "#bbdcf5",
+      "#c5b8b8",
+      "#89a899",
+      "#dcd4d4",
+      "#459aec",
+      "#e9ddc8"
+    ],
+    "background_color": "#352f44",
+    "text_color": "#a38e8e"
+  },
+  "images": {
+    "other": {},
+    "field": {}
+  }
+}

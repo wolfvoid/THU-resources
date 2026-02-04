@@ -1,0 +1,201 @@
+{
+    "data": {
+        "data": [
+            {
+                "Activity": "Gaming",
+                "Weekly Hours": 10.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Gaming",
+                "Weekly Hours": 16.5,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Book Reading",
+                "Weekly Hours": 4.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Book Reading",
+                "Weekly Hours": 4.0,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Mall Visits",
+                "Weekly Hours": 6.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Mall Visits",
+                "Weekly Hours": 3.2,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Podcasts",
+                "Weekly Hours": 2.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Podcasts",
+                "Weekly Hours": 5.5,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Cable TV",
+                "Weekly Hours": 9.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Cable TV",
+                "Weekly Hours": 4.8,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Hiking",
+                "Weekly Hours": 3.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Hiking",
+                "Weekly Hours": 3.0,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Short Video",
+                "Weekly Hours": 8.0,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Short Video",
+                "Weekly Hours": 15.0,
+                "Year": "2025"
+            },
+            {
+                "Activity": "Cinemas",
+                "Weekly Hours": 2.5,
+                "Year": "2020"
+            },
+            {
+                "Activity": "Cinemas",
+                "Weekly Hours": 1.4,
+                "Year": "2025"
+            }
+        ],
+        "columns": [
+            {
+                "name": "Activity",
+                "importance": "primary",
+                "description": "Leisure activity type",
+                "unit": "none",
+                "data_type": "categorical",
+                "role": "x"
+            },
+            {
+                "name": "Weekly Hours",
+                "importance": "primary",
+                "description": "Average hours spent per week",
+                "unit": "hrs",
+                "data_type": "numerical",
+                "role": "y"
+            },
+            {
+                "name": "Year",
+                "data_type": "categorical",
+                "role": "category",
+                "description": "Comparison year"
+            }
+        ],
+        "type_combination": "categorical + numerical + categorical"
+    },
+    "chart_type": "Pictorial Unit Chart",
+    "data_format": {
+        "x": "Activity",
+        "y": "Weekly Hours"
+    },
+    "metadata": {
+        "title": "",
+        "description": "",
+        "main_insight": "",
+        "titles": {},
+        "data_facts": []
+    },
+    "secondary_data": [],
+    "variables": {
+        "width": 900,
+        "height": 600,
+        "has_rounded_corners": false,
+        "has_shadow": false,
+        "has_spacing": false,
+        "has_gradient": false,
+        "has_stroke": false
+    },
+    "typography": {
+        "title": {
+            "font_family": "Arial",
+            "font_size": "28px",
+            "font_weight": 700
+        },
+        "description": {
+            "font_family": "Arial",
+            "font_size": "16px",
+            "font_weight": 500
+        },
+        "label": {
+            "font_family": "Arial",
+            "font_size": "14px",
+            "font_weight": 500
+        },
+        "annotation": {
+            "font_family": "Arial",
+            "font_size": "12px",
+            "font_weight": 400
+        }
+    },
+    "datafacts": [],
+    "titles": {
+        "main_title": "Gen Z Leisure Habits",
+        "sub_title": "AVG WEEKLY HOURS 2020 VS 2025",
+        "main_insights": "While digital engagement like gaming and short video has surged, traditional media and mall visits have dropped sharply, with only reading and hiking remaining stable."
+    },
+    "colors": {
+        "field": {},
+        "other": {
+            "primary": "#d27c89",
+            "secondary": "#e5c767"
+        },
+        "available_colors": [
+            "#3e4443",
+            "#245b36",
+            "#727272",
+            "#335273"
+        ],
+        "background_color": "#E2F1F6",
+        "text_color": "#414141"
+    },
+    "colors_dark": {
+        "field": {},
+        "other": {
+            "primary": "#e7bcc3",
+            "secondary": "#f0d991"
+        },
+        "available_colors": [
+            "#0002f6",
+            "#170188",
+            "#09e896",
+            "#00d9fe",
+            "#ff68f4",
+            "#fde900",
+            "#fe050e",
+            "#ff7b00",
+            "#8f00ff",
+            "#aaff00"
+        ],
+        "background_color": "#020003",
+        "text_color": "#a38e8e"
+    },
+    "images": {
+        "other": {},
+        "field": {}
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "data": {
+        "data": [
+            {
+                "Tool Type": "Phone Calls",
+                "Weekly Hours": 6.5,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Phone Calls",
+                "Weekly Hours": 5.2,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "Physical Mail",
+                "Weekly Hours": 2.5,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Physical Mail",
+                "Weekly Hours": 1.8,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "In-Person Mtgs",
+                "Weekly Hours": 9.0,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "In-Person Mtgs",
+                "Weekly Hours": 7.5,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "Email",
+                "Weekly Hours": 14.0,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Email",
+                "Weekly Hours": 12.5,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "Video Calls",
+                "Weekly Hours": 4.0,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Video Calls",
+                "Weekly Hours": 15.5,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "Instant Chat",
+                "Weekly Hours": 5.0,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Instant Chat",
+                "Weekly Hours": 18.0,
+                "Year": "2025"
+            },
+            {
+                "Tool Type": "Cloud Docs",
+                "Weekly Hours": 3.0,
+                "Year": "2020"
+            },
+            {
+                "Tool Type": "Cloud Docs",
+                "Weekly Hours": 11.0,
+                "Year": "2025"
+            }
+        ],
+        "columns": [
+            {
+                "name": "Tool Type",
+                "importance": "primary",
+                "description": "Category of collaboration tool",
+                "unit": "none",
+                "data_type": "categorical",
+                "role": "x"
+            },
+            {
+                "name": "Weekly Hours",
+                "importance": "primary",
+                "description": "Average hours spent per employee per week",
+                "unit": "hrs",
+                "data_type": "numerical",
+                "role": "y"
+            },
+            {
+                "name": "Year",
+                "data_type": "categorical",
+                "role": "category",
+                "description": "Comparison year"
+            }
+        ],
+        "type_combination": "categorical + numerical + categorical"
+    },
+    "chart_type": "Pictorial Unit Chart",
+    "data_format": {
+        "x": "Tool Type",
+        "y": "Weekly Hours"
+    },
+    "metadata": {
+        "title": "",
+        "description": "",
+        "main_insight": "",
+        "titles": {},
+        "data_facts": []
+    },
+    "secondary_data": [],
+    "variables": {
+        "width": 900,
+        "height": 600,
+        "has_rounded_corners": false,
+        "has_shadow": false,
+        "has_spacing": false,
+        "has_gradient": false,
+        "has_stroke": false
+    },
+    "typography": {
+        "title": {
+            "font_family": "Arial",
+            "font_size": "28px",
+            "font_weight": 700
+        },
+        "description": {
+            "font_family": "Arial",
+            "font_size": "16px",
+            "font_weight": 500
+        },
+        "label": {
+            "font_family": "Arial",
+            "font_size": "14px",
+            "font_weight": 500
+        },
+        "annotation": {
+            "font_family": "Arial",
+            "font_size": "12px",
+            "font_weight": 400
+        }
+    },
+    "datafacts": [],
+    "titles": {
+        "main_title": "Workplace Collaboration Evolution",
+        "sub_title": "WEEKLY HOURS PER EMPLOYEE 2020 VS 2025",
+        "main_insights": "Legacy communication channels show slight declines, while real-time video and synchronous chat tools have experienced exponential adoption."
+    },
+    "colors": {
+        "field": {},
+        "other": {
+            "primary": "#d27c89",
+            "secondary": "#e5c767"
+        },
+        "available_colors": [
+            "#3e4443",
+            "#245b36",
+            "#727272",
+            "#335273"
+        ],
+        "background_color": "#E2F1F6",
+        "text_color": "#414141"
+    },
+    "colors_dark": {
+        "field": {},
+        "other": {
+            "primary": "#e7bcc3",
+            "secondary": "#f0d991"
+        },
+        "available_colors": [
+            "#0002f6",
+            "#170188",
+            "#09e896",
+            "#00d9fe",
+            "#ff68f4",
+            "#fde900",
+            "#fe050e",
+            "#ff7b00",
+            "#8f00ff",
+            "#aaff00"
+        ],
+        "background_color": "#020003",
+        "text_color": "#a38e8e"
+    },
+    "images": {
+        "other": {},
+        "field": {}
+    }
+}

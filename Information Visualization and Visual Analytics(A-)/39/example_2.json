@@ -1,0 +1,201 @@
+{
+    "data": {
+        "data": [
+            {
+                "Vehicle Segment": "Compact Cars",
+                "EV Market Share %": 4,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Compact Cars",
+                "EV Market Share %": 18,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "SUVs",
+                "EV Market Share %": 5,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "SUVs",
+                "EV Market Share %": 24,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "Luxury Sedans",
+                "EV Market Share %": 12,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Luxury Sedans",
+                "EV Market Share %": 35,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "City Buses",
+                "EV Market Share %": 18,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "City Buses",
+                "EV Market Share %": 42,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "Two-Wheelers",
+                "EV Market Share %": 25,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Two-Wheelers",
+                "EV Market Share %": 55,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "Delivery Vans",
+                "EV Market Share %": 3,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Delivery Vans",
+                "EV Market Share %": 21,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "Heavy Trucks",
+                "EV Market Share %": 1,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Heavy Trucks",
+                "EV Market Share %": 8,
+                "Year": "2026"
+            },
+            {
+                "Vehicle Segment": "Sports Cars",
+                "EV Market Share %": 2,
+                "Year": "2021"
+            },
+            {
+                "Vehicle Segment": "Sports Cars",
+                "EV Market Share %": 14,
+                "Year": "2026"
+            }
+        ],
+        "columns": [
+            {
+                "name": "Vehicle Segment",
+                "importance": "primary",
+                "description": "Category of vehicle type",
+                "unit": "none",
+                "data_type": "categorical",
+                "role": "x"
+            },
+            {
+                "name": "EV Market Share %",
+                "importance": "primary",
+                "description": "Percentage of sales that are electric",
+                "unit": "%",
+                "data_type": "numerical",
+                "role": "y"
+            },
+            {
+                "name": "Year",
+                "data_type": "categorical",
+                "role": "category",
+                "description": "Comparison year"
+            }
+        ],
+        "type_combination": "categorical + numerical + categorical"
+    },
+    "chart_type": "Pictorial Unit Chart",
+    "data_format": {
+        "x": "Vehicle Segment",
+        "y": "EV Market Share %"
+    },
+    "metadata": {
+        "title": "",
+        "description": "",
+        "main_insight": "",
+        "titles": {},
+        "data_facts": []
+    },
+    "secondary_data": [],
+    "variables": {
+        "width": 800,
+        "height": 600,
+        "has_rounded_corners": false,
+        "has_shadow": false,
+        "has_spacing": false,
+        "has_gradient": false,
+        "has_stroke": false
+    },
+    "typography": {
+        "title": {
+            "font_family": "Arial",
+            "font_size": "28px",
+            "font_weight": 700
+        },
+        "description": {
+            "font_family": "Arial",
+            "font_size": "16px",
+            "font_weight": 500
+        },
+        "label": {
+            "font_family": "Arial",
+            "font_size": "14px",
+            "font_weight": 500
+        },
+        "annotation": {
+            "font_family": "Arial",
+            "font_size": "12px",
+            "font_weight": 400
+        }
+    },
+    "datafacts": [],
+    "titles": {
+        "main_title": "Electric Vehicle Adoption",
+        "sub_title": "GLOBAL MARKET SHARE BY SEGMENT 2021 VS 2026",
+        "main_insights": "Electrification is accelerating across all transport sectors, with two-wheelers and buses leading the transition globally."
+    },
+    "colors": {
+        "field": {},
+        "other": {
+            "primary": "#d27c89",
+            "secondary": "#e5c767"
+        },
+        "available_colors": [
+            "#3e4443",
+            "#245b36",
+            "#727272",
+            "#335273"
+        ],
+        "background_color": "#E2F1F6",
+        "text_color": "#414141"
+    },
+    "colors_dark": {
+        "field": {},
+        "other": {
+            "primary": "#e7bcc3",
+            "secondary": "#f0d991"
+        },
+        "available_colors": [
+            "#0002f6",
+            "#170188",
+            "#09e896",
+            "#00d9fe",
+            "#ff68f4",
+            "#fde900",
+            "#fe050e",
+            "#ff7b00",
+            "#8f00ff",
+            "#aaff00"
+        ],
+        "background_color": "#020003",
+        "text_color": "#a38e8e"
+    },
+    "images": {
+        "other": {},
+        "field": {}
+    }
+}

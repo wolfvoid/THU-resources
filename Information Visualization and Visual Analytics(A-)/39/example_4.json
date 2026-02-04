@@ -1,0 +1,171 @@
+{
+  "data": {
+    "data": [
+      {
+        "Media Type": "Cable TV",
+        "Daily Minutes": 135,
+        "Year": "2019"
+      },
+      {
+        "Media Type": "Cable TV",
+        "Daily Minutes": 95,
+        "Year": "2024"
+      },
+      {
+        "Media Type": "Streaming Video",
+        "Daily Minutes": 55,
+        "Year": "2019"
+      },
+      {
+        "Media Type": "Streaming Video",
+        "Daily Minutes": 110,
+        "Year": "2024"
+      },
+      {
+        "Media Type": "Print Media",
+        "Daily Minutes": 20,
+        "Year": "2019"
+      },
+      {
+        "Media Type": "Print Media",
+        "Daily Minutes": 9,
+        "Year": "2024"
+      },
+      {
+        "Media Type": "Social Media",
+        "Daily Minutes": 130,
+        "Year": "2019"
+      },
+      {
+        "Media Type": "Social Media",
+        "Daily Minutes": 175,
+        "Year": "2024"
+      },
+      {
+        "Media Type": "Radio",
+        "Daily Minutes": 45,
+        "Year": "2019"
+      },
+      {
+        "Media Type": "Radio",
+        "Daily Minutes": 32,
+        "Year": "2024"
+      }
+    ],
+    "columns": [
+      {
+        "name": "Media Type",
+        "importance": "primary",
+        "description": "Category of media format",
+        "unit": "none",
+        "data_type": "categorical",
+        "role": "x"
+      },
+      {
+        "name": "Daily Minutes",
+        "importance": "primary",
+        "description": "Average minutes spent per day",
+        "unit": "min",
+        "data_type": "numerical",
+        "role": "y"
+      },
+      {
+        "name": "Year",
+        "data_type": "categorical",
+        "role": "category",
+        "description": "Comparison year"
+      }
+    ],
+    "type_combination": "categorical + numerical + categorical"
+  },
+  "chart_type": "Pictorial Unit Chart",
+  "data_format": {
+    "x": "Media Type",
+    "y": "Daily Minutes"
+  },
+  "metadata": {
+    "title": "",
+    "description": "",
+    "main_insight": "",
+    "titles": {},
+    "data_facts": []
+  },
+  "secondary_data": [],
+  "variables": {
+    "width": 800,
+    "height": 600,
+    "has_rounded_corners": false,
+    "has_shadow": false,
+    "has_spacing": false,
+    "has_gradient": false,
+    "has_stroke": false
+  },
+  "typography": {
+    "title": {
+      "font_family": "Arial",
+      "font_size": "28px",
+      "font_weight": 700
+    },
+    "description": {
+      "font_family": "Arial",
+      "font_size": "16px",
+      "font_weight": 500
+    },
+    "label": {
+      "font_family": "Arial",
+      "font_size": "14px",
+      "font_weight": 500
+    },
+    "annotation": {
+      "font_family": "Arial",
+      "font_size": "12px",
+      "font_weight": 400
+    }
+  },
+  "datafacts": [],
+  "titles": {
+    "main_title": "Shifting Attention Spans",
+    "sub_title": "AVG DAILY CONSUMPTION 2019 VS 2024",
+    "main_insights": "Digital streaming and social platforms continue to capture user time, while traditional broadcast and print formats see steady declines."
+  },
+  "colors": {
+    "field": {},
+    "other": {
+      "primary": "#d27c89",
+      "secondary": "#e5c767"
+    },
+    "available_colors": [
+      "#3e4443",
+      "#245b36",
+      "#727272",
+      "#335273"
+    ],
+    "background_color": "#E2F1F6",
+    "text_color": "#414141"
+  },
+  "colors_dark": {
+    "field": {},
+    "other": {
+      "primary": "#e7bcc3",
+      "secondary": "#f0d991"
+    },
+    "available_colors": [
+      "#0002f6",
+      "#170188",
+      "#09e896",
+      "#00d9fe",
+      "#ff68f4",
+      "#fde900",
+      "#fe050e",
+      "#ff7b00",
+      "#8f00ff",
+      "#aaff00"
+    ],
+    "background_color": "#020003",
+    "text_color": "#a38e8e"
+  },
+  "images": {
+    "other": {},
+    "field": {}
+  }
+}
