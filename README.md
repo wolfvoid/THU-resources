@@ -7,6 +7,7 @@ This repository contains my course trajectory for degree courses at Tsinghua Uni
 
 | Course number| Course Name | Grade | Status |
 | :---: | :--- | :---: | :---: |
+| 60428004 | Math for Engineering Master | A | ✅ Public |
 | 84100343 | Deep Learning | A- | ✅ Public |
 | 84100322 | Information Visualization and Visual Analytics  | A- | ✅ Public |
 | 84100102 | Software Requirements Engineering | A | 🚧 To be continued |
