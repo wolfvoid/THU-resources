@@ -5,12 +5,15 @@ This repository contains my course trajectory for degree courses at Tsinghua Uni
 
 ## Course List
 
-| Course number| Course Name | Grade | Status |
-| :---: | :--- | :---: | :---: |
-| 60428004 | Math for Engineering Master | A | ✅ Public |
-| 84100343 | Deep Learning | A- | ✅ Public |
-| 84100322 | Information Visualization and Visual Analytics  | A- | ✅ Public |
-| 84100102 | Software Requirements Engineering | A | 🚧 To be continued |
-| - | Realistic rendering | - | 🚧 To be continued |
+| Course number | Course Name                                    | Grade |   Status   |
+| :-----------: | :--------------------------------------------- | :---: | :--------: |
+|   60428004   | Math for Engineering Master                    |   A   | ✅ Public |
+|   84100343   | Deep Learning                                  |  A-  | ✅ Public |
+|   84100322   | Information Visualization and Visual Analytics |  A-  | ✅ Public |
+|   84100102   | Software Requirements Engineering              |   A   | ✅ Public |
+|   74100142   | Software Measure                               |   A   | ✅ Public |
+|   84100262   | Realistic rendering                            |   A   | ✅ Public ([THU_MyRenderer](https://github.com/wolfvoid/THU_MyRenderer)) |
 
-Note: The course list is incomplete and will be updated over time.
+> Note:
+> - The course list is complete.
+> - **Realistic rendering** 不在本文件夹内，相关代码与资料请参考独立仓库：<https://github.com/wolfvoid/THU_MyRenderer>。

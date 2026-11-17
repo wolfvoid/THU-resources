@@ -1,0 +1,140 @@
+# AFL dictionary for ASS/SSA subtitle format
+# Covers section headers, style fields, and override tags
+# so AFL's havoc mutations can hit valid keywords directly.
+
+# Section headers
+"[Script Info]"
+"[V4+ Styles]"
+"[V4 Styles]"
+"[Events]"
+"[Fonts]"
+"[Graphics]"
+
+# Script Info keys
+"ScriptType: v4.00+"
+"ScriptType: v4.00"
+"PlayResX: "
+"PlayResY: "
+"WrapStyle: "
+"ScaledBorderAndShadow: yes"
+"YCbCr Matrix: "
+"Synch Point: "
+
+# Style format fields
+"Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding"
+"Style: "
+
+# Event format
+"Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text"
+"Dialogue: "
+"Comment: "
+
+# Override tag delimiters
+"{\\"
+"}"
+
+# Font / size tags
+"\\fn"
+"\\fs"
+"\\fscx"
+"\\fscy"
+"\\fsp"
+
+# Color tags
+"\\c&H"
+"\\1c&H"
+"\\2c&H"
+"\\3c&H"
+"\\4c&H"
+"\\alpha&H"
+"\\1a&H"
+"\\2a&H"
+"\\3a&H"
+"\\4a&H"
+
+# Style tags
+"\\b1"
+"\\b0"
+"\\i1"
+"\\i0"
+"\\u1"
+"\\u0"
+"\\s1"
+"\\s0"
+
+# Position / motion tags
+"\\pos("
+"\\move("
+"\\org("
+"\\an"
+"\\a"
+
+# Border / shadow
+"\\bord"
+"\\xbord"
+"\\ybord"
+"\\shad"
+"\\xshad"
+"\\yshad"
+"\\blur"
+"\\be"
+
+# Rotation
+"\\frx"
+"\\fry"
+"\\frz"
+"\\fr"
+
+# Fade
+"\\fad("
+"\\fade("
+
+# Animation — primary attack surface for CWE-400
+"\\t("
+"\\t(0,"
+"\\t(0,1000,"
+
+# Clip / vector clip
+"\\clip("
+"\\iclip("
+"\\clip(1,"
+
+# Karaoke
+"\\k"
+"\\kf"
+"\\ko"
+"\\K"
+
+# Drawing mode — primary attack surface for CWE-190
+"\\p1"
+"\\p2"
+"\\p4"
+"\\p0"
+
+# Drawing commands
+"m 0 0"
+"l "
+"b "
+"s "
+"p "
+"c"
+
+# Reset
+"\\r"
+"\\r0"
+
+# Misc
+"\\q"
+"\\q0"
+"\\q1"
+"\\q2"
+"\\q3"
+"\\N"
+"\\n"
+"\\h"
+
+# Colour hex patterns
+"&H00FFFFFF&"
+"&H00000000&"
+"&HFF000000&"
+"&H000000FF&"

@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 3291
+PlayResY: 752
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,75,&H0041DC17,&H00A6E0B6,&H00B20D2E,&H00ED0205,0,0,0,0,197,115,5,0,1,1,2,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:11:03.10,0:11:06.04,Default,,76,80,78,,{\k230}The quick brown fox
+Dialogue: 1,0:12:16.06,0:12:17.40,Default,,40,66,5,,{\fade(76,76,76,0,4784,216,5000)}libass
+Dialogue: 1,0:34:34.57,0:34:41.00,Default,,58,15,31,,{\fs1982}Test
+Dialogue: 3,0:46:01.65,0:46:07.38,Default,,100,57,35,,{\1c&H9BD965&}Hello fuzzer!
+Dialogue: 1,0:22:44.34,0:22:48.55,Default,,72,38,62,,{\alpha&H82&}Hello fuzzer!
+Dialogue: 4,0:35:03.88,0:35:08.23,Default,,18,88,0,,{\t(4271,928,\fscx338)}Test
+Dialogue: 5,0:08:56.78,0:08:58.51,Default,,59,83,44,,{\move(1563,343,1209,813,3478,572)}Test
+Dialogue: 0,0:00:52.68,0:00:54.46,Default,,69,20,28,,{\1c&H4A59FE&}Test

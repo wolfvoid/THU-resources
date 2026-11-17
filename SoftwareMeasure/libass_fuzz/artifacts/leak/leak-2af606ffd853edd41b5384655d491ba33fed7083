@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 2057
+PlayResY: 1171
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Courier New,87,&H001860E1,&H0088BA83,&H00CE5A8F,&H006E6740,1,1,0,0,66,87,9,0,3,3,1,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:03:23.58,0:03:27.54,Default,,40,67,91,,{\kf1640}The quick brown fox
+Dialogue: 1,0:21:45.05,0:21:51.33,Default,,19,91,58,,{\3c&HFF2A35&}The quick brown fox
+Dialogue: 5,0:46:16.96,0:46:25.93,Default,,90,40,8,,The quick brown fox
+Dialogue: 0,0:34:31.66,0:34:39.98,Default,,80,81,10,,{\blur976}Test
+Dialogue: 1,0:36:14.44,0:36:20.63,Default,,55,87,86,,{\bord124}A
+Dialogue: 2,0:25:44.29,0:25:53.44,Default,,65,14,94,,{\alpha&H31&}Hello fuzzer!
+Dialogue: 4,0:32:33.93,0:32:34.22,Default,,86,55,90,,{\an5}A
